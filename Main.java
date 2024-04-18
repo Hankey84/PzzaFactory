@@ -8,7 +8,7 @@ public class Main {
 // Напишите клиентский код, который будет использовать фабрику для создания заказов различных видов пиццы и их доставки.
     public static void main(String[] args) {
         Pizza newPizza = PizzaFactory.createPizza("MargheritaPizza");
-
+        newPizza.CoocPizza();
         System.out.println(newPizza);
     }
 
